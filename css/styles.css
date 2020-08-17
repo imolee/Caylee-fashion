@@ -1,3 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+   
+}
+a:hover{
+    text-decoration:none;
+}
 .creditCardForm {
     max-width: 700px;
     background-color: #fff;
@@ -6,7 +17,18 @@
     padding: 25px;
     color: #4c4e56;
 }
+.breadcrumb-header{
+    background:linear-gradient(45deg, #55050570, #55050570),url(../images/banner-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    padding: 19px 0;
+    color:#f4fbfc;
 
+}
+.pad-t-5{
+    padding-top: 5rem;
+}
 .creditCardForm label {
     width: 100%;
     margin-bottom: 10px;
@@ -81,6 +103,10 @@
 .transparent {
     opacity: 0.2;
 }
+.nav-pill-max-height{
+    border: 1px solid #ccc;
+    height: 100%;
+}
 
 @media(max-width: 650px) {
     .creditCardForm .owner,
@@ -118,3 +144,50 @@
     margin: 5px 0 0 0;
     font-size: 14px;
 }
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    border-radius: 0px;
+}
+.content-text h3, .content-text p{
+    margin:0;
+}
+.text-dark{
+   color: #4f4f4f;
+}
+.content-text{
+    padding:15px;
+}
+.active-categories{
+    border-bottom:1px solid #ccc;
+    padding: 4px;
+}
+.cloth-description{
+    line-height: 16px;
+    margin: 2px;
+}
+.nav-link:hover{
+    background: #f4fbfc;
+    border: none;
+}
+.nav-link{
+    color: #4f4f4f;
+}
+.content-text h3{
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+.clothing-section{
+    height: max-content; 
+    overflow: hidden;
+  }
+.clothing-section img {
+    transition: transform .5s ease;
+  }
+  .clothing-section:hover img {
+    transition: transform .5s ease;
+  transform: scale(1.1);
+}
+.breadcrumb-header{
+    /* align-items:center; */
+    justify-content: center;
+}
+  
