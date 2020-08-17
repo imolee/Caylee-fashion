@@ -23,7 +23,9 @@
     cursor: pointer;
     transform: scale(1.1);
 }
-
+.image-box img{
+    max-height: 400px;
+}
 
 /* 
 .creditCardForm {

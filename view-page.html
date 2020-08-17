@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home-page</title>
+         <!-- bootstrap css -->
+         <link rel="stylesheet" href="css/bootstrap.css">
+         <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/Grace.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md  navbar-light bg-danger fixed-top">
+        <div class="navbar-brand text-white">
+            <strong> Caylee</strong>-fashion</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto ">
+                <li class="link-item">
+                    <a href="Grace.html" class="nav-link text-white">HOME</a>
+                </li>
+                <li class="link-item">
+                    <a href="#how" class="nav-link text-white">ABOUT</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="Short.html">Short</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Long</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Sleeveless</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Ball dress</a>
+                    </div>
+                  </li>
+                <li class="link-item">
+                    <a href="#how" class="nav-link text-white">CONTACT</a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+    <section>
+        <div class="container-fluid black text-dark text-center pb-5 pt-5">
+            <h4 class="text-center font-weight-bold pt-5">ROVARS HALF SLEEVES BODYSUIT SWIMWEAR 5 PATCH - DARK PINK</h4>
+            <p class="pt-5 mr-0">
+                <a href="Grace.html" class="text-danger" >Home</a><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                <a href="Grace.html" class="text-danger" >Short</a><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                Rovars Half Sleeves Bodysuit Swimwear 5 Patch - Dark Pink
+            </p> 
+        </div>
+        
+        <div class="container-fluid p-3">
+            <div class="row  p-3">
+    
+                <div class="col-md-4">
+                    <div class="image-box text-center">  
+                        <div class="w3-content w3-section" style="max-width:500px">
+                            <img class="mySlides" src="images/bro.jpg" style="width:100%">
+                            <img class="mySlides" src="images/kids-7_10.jpg" style="width:100%">
+                            <img class="mySlides" src="images/kids-9_9.jpg" style="width:100%">
+                          </div>
+                          
+                          <script>
+                          var myIndex = 0;
+                          carousel();
+                          
+                          function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                              x[i].style.display = "none";  
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) {myIndex = 1}    
+                            x[myIndex-1].style.display = "block";  
+                            setTimeout(carousel, 7000); // Change image every 7 seconds
+                          }
+                          </script>
+                    </div>
+                </div> 
+                <div class="col-md-8">
+                    <h3 class="text-secondary"> Rovars Half Sleeves Bodysuit Swimwear 5 Patch - Dark Pink</h3>
+                    <p>Be the first to review this product</p>
+                    <h3 class="text-danger">$64.00</h3>
+                    <p class="text-secondary">In Stock</p>
+                    <p class="text-secondary"><strong>SKU</strong>  Jash Kids Half Sleeves      Shirt Allover Triangle Print - Peach
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p> 
+                        <div class="container">
+                            <P class=" m-0">Size <strong class="text-danger">*</strong></P>
+                            <select class=" custom-select-sm w-50">
+                                <option selected>--Please select--</option>
+                                <option value="1">L</option>
+                                <option value="2">XL</option>
+                                <option value="3">XXL</option>
+                              </select>
+                            <P class="m-0">patter <strong class="text-danger">*</strong></P>
+                            <select class="custom-select-sm w-50 pt-0 mt-0">
+                                <option selected>--Please select--</option>
+                                <option value="1">Straight</option>
+                                <option value="2">Curve</option>
+                            </select>
+                        </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
