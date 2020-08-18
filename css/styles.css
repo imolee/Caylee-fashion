@@ -190,4 +190,80 @@ a:hover{
     /* align-items:center; */
     justify-content: center;
 }
-  
+  .carousel-img{
+      height: 640px;
+      object-fit:cover;
+  }
+
+   .after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:-25rem;
+    right: 0;
+    bottom: 0;
+    background:linear-gradient(84deg, #000000, #000000, #0000007d, #1412120a),url(../images/heroslider-shape-2.png);
+    /* background: #292828f7; */
+    height: 640px;
+    opacity: .90;
+   }
+   .carousel-caption {
+    position: absolute;
+    top: 14rem;
+    left: -21rem;
+   }
+   .text-pink{
+       color: pink;
+   }
+   .shop-now{
+    background:linear-gradient(84deg,#00000099, #00000099),url(../images/shop-now.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 96px 0;
+    text-align: center;
+    color: #f4fbfc;
+    
+   }
+   .timer{
+    padding: 0 23px;
+    font-size: 61px;
+    width: 100%;
+    background: #f8f9fa;
+    font-weight: 900;
+    color: #dd3d45;
+    margin: 36px;
+   }
+   .discount-price{
+       font-size: 50px;
+   }
+   .discount-price span{
+    color: #dd3d45;
+
+   }
+   .bod-bott:after{
+       content:"";
+       display:block;
+    border-bottom: 3px solid red;
+    width: 6rem;
+    margin-bottom: 2rem;
+   }
+   /* .carousel-control-prev {
+    left: 31px;
+}
+.carousel-control-next {
+    right: 31px;
+} */
+
+
+.shop-now-btn{
+    background: #dd3d45;
+    width: max-content;
+    margin: auto;
+    padding: 7px 25px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.shop-now-btn a{
+    color:#f4fbfc;
+}
