@@ -267,3 +267,56 @@ a:hover{
 .shop-now-btn a{
     color:#f4fbfc;
 }
+.logo{
+    width: 70px;
+    height: 50px;
+    object-fit: fill;
+}
+footer{
+    background:linear-gradient(45deg, #121111f5, #121111f2),url(../images/banner-img.jpg);
+    color: #f4fbfc;
+    padding:5rem 0;
+    border-top:2px solid red;
+    padding-bottom :0;
+}
+footer h4{
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    font-weight:800;
+}
+footer ul{
+    list-style-type: none;
+   
+}
+.list-item-section li{
+    padding: 7px;
+    /* margin-top: 2rem; */
+}
+.form-subscribe:focus{
+    border-color: red;
+    background: transparent;
+    outline-color: none;
+    outline: 0;
+    box-shadow:none;
+}
+.form-subscribe{
+    background: transparent;
+    border-radius: none;
+    margin-bottom: 1rem;
+}
+.font-800{
+    font-weight: 800;
+}
+.copyright-section{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 0.5rem;
+    border-top: 1px solid #ccc;
+}
+.img-footer{
+    border: 1px solid #fff;
+    padding: 2px;
+    width: 50px;
+}
