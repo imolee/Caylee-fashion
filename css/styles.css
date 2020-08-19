@@ -165,7 +165,7 @@ a:hover{
     margin: 2px;
 }
 .nav-link:hover{
-    background: #f4fbfc;
+    /* background: #f4fbfc; */
     border: none;
 }
 .nav-link{
@@ -278,6 +278,7 @@ footer{
     padding:5rem 0;
     border-top:2px solid red;
     padding-bottom :0;
+    background-position: fixed;
 }
 footer h4{
     margin: 0;
