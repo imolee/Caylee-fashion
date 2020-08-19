@@ -105,7 +105,7 @@ a:hover{
 }
 .nav-pill-max-height{
     border: 1px solid #ccc;
-    height: 100%;
+    height: max-content;
 }
 
 @media(max-width: 650px) {
@@ -165,7 +165,7 @@ a:hover{
     margin: 2px;
 }
 .nav-link:hover{
-    background: #f4fbfc;
+    /* background: #f4fbfc; */
     border: none;
 }
 .nav-link{
@@ -190,4 +190,134 @@ a:hover{
     /* align-items:center; */
     justify-content: center;
 }
-  
+  .carousel-img{
+      height: 640px;
+      object-fit:cover;
+  }
+
+   .after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:-25rem;
+    right: 0;
+    bottom: 0;
+    background:linear-gradient(84deg, #000000, #000000, #0000007d, #1412120a),url(../images/heroslider-shape-2.png);
+    /* background: #292828f7; */
+    height: 640px;
+    opacity: .90;
+   }
+   .carousel-caption {
+    position: absolute;
+    top: 14rem;
+    left: -21rem;
+   }
+   .text-pink{
+       color: pink;
+   }
+   .shop-now{
+    background:linear-gradient(84deg,#00000099, #00000099),url(../images/shop-now.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 96px 0;
+    text-align: center;
+    color: #f4fbfc;
+    
+   }
+   .timer{
+    padding: 0 23px;
+    font-size: 61px;
+    width: 100%;
+    background: #f8f9fa;
+    font-weight: 900;
+    color: #dd3d45;
+    margin: 36px;
+   }
+   .discount-price{
+       font-size: 50px;
+   }
+   .discount-price span{
+    color: #dd3d45;
+
+   }
+   .bod-bott:after{
+       content:"";
+       display:block;
+    border-bottom: 3px solid red;
+    width: 6rem;
+    margin-bottom: 2rem;
+   }
+   /* .carousel-control-prev {
+    left: 31px;
+}
+.carousel-control-next {
+    right: 31px;
+} */
+
+
+.shop-now-btn{
+    background: #dd3d45;
+    width: max-content;
+    margin: auto;
+    padding: 7px 25px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.shop-now-btn a{
+    color:#f4fbfc;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    object-fit: fill;
+}
+footer{
+    background:linear-gradient(45deg, #121111f5, #121111f2),url(../images/banner-img.jpg);
+    color: #f4fbfc;
+    padding:5rem 0;
+    border-top:2px solid red;
+    padding-bottom :0;
+    background-position: fixed;
+}
+footer h4{
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    font-weight:800;
+}
+footer ul{
+    list-style-type: none;
+   
+}
+.list-item-section li{
+    padding: 7px;
+    /* margin-top: 2rem; */
+}
+.form-subscribe:focus{
+    border-color: red;
+    background: transparent;
+    outline-color: none;
+    outline: 0;
+    box-shadow:none;
+}
+.form-subscribe{
+    background: transparent;
+    border-radius: none;
+    margin-bottom: 1rem;
+}
+.font-800{
+    font-weight: 800;
+}
+.copyright-section{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 0.5rem;
+    border-top: 1px solid #ccc;
+}
+.img-footer{
+    border: 1px solid #fff;
+    padding: 2px;
+    width: 50px;
+}
