@@ -94,7 +94,9 @@ a:hover{
     background-color: #2ec4a5;
     color: white;
 }
-
+.carousel-caption h1, .carousel-caption h5, .carousel-caption p{
+    color:#515152;
+}
 .creditCardForm .payment select {
     padding: 10px;
     margin-right: 15px;
@@ -105,7 +107,7 @@ a:hover{
 }
 .nav-pill-max-height{
     border: 1px solid #ccc;
-    height: 100%;
+    height: max-content;
 }
 
 @media(max-width: 650px) {
@@ -165,7 +167,7 @@ a:hover{
     margin: 2px;
 }
 .nav-link:hover{
-    background: #f4fbfc;
+    /* background: #f4fbfc; */
     border: none;
 }
 .nav-link{
@@ -202,21 +204,20 @@ a:hover{
     left:-25rem;
     right: 0;
     bottom: 0;
-    background:linear-gradient(84deg, #000000, #000000, #0000007d, #1412120a),url(../images/heroslider-shape-2.png);
-    /* background: #292828f7; */
+    background:linear-gradient(84deg, #dbd7dadb, #f0edef, #0000007d, #1412120a),url(../images/heroslider-shape-2.png);
     height: 640px;
     opacity: .90;
    }
    .carousel-caption {
     position: absolute;
-    top: 14rem;
+    top: 18rem;
     left: -21rem;
    }
    .text-pink{
-       color: pink;
+       color: #c7118f;
    }
    .shop-now{
-    background:linear-gradient(84deg,#00000099, #00000099),url(../images/shop-now.jpg);
+    background:linear-gradient(84deg,#000000d1, #010101db),url(../images/shop-now.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
@@ -230,23 +231,33 @@ a:hover{
     font-size: 61px;
     width: 100%;
     background: #f8f9fa;
-    font-weight: 900;
-    color: #dd3d45;
+    font-weight: 400;
+    color: #c7118f;
     margin: 36px;
    }
    .discount-price{
        font-size: 50px;
    }
    .discount-price span{
-    color: #dd3d45;
+    color: #c7118f;
 
+   }
+   .bod-bott{
+       text-align:center;
+       padding:2rem;
+       padding-bottom: 0.5rem;;
    }
    .bod-bott:after{
        content:"";
        display:block;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #c9518f;
     width: 6rem;
+    height:5px;
+    margin:auto;
     margin-bottom: 2rem;
+    padding-right:9px;
+    text-align: center;
+
    }
    /* .carousel-control-prev {
     left: 31px;
@@ -255,9 +266,12 @@ a:hover{
     right: 31px;
 } */
 
-
+.btn-danger{
+    background-color:#c9518f !important;
+    border-color:#c9518f!important;
+}
 .shop-now-btn{
-    background: #dd3d45;
+    background: #c9518f;
     width: max-content;
     margin: auto;
     padding: 7px 25px;
@@ -276,8 +290,9 @@ footer{
     background:linear-gradient(45deg, #121111f5, #121111f2),url(../images/banner-img.jpg);
     color: #f4fbfc;
     padding:5rem 0;
-    border-top:2px solid red;
+    border-top:2px solid #c9518f;;
     padding-bottom :0;
+    background-position: fixed;
 }
 footer h4{
     margin: 0;
@@ -295,7 +310,7 @@ footer ul{
     /* margin-top: 2rem; */
 }
 .form-subscribe:focus{
-    border-color: red;
+    border-color: #c9518f;;
     background: transparent;
     outline-color: none;
     outline: 0;
@@ -319,4 +334,51 @@ footer ul{
     border: 1px solid #fff;
     padding: 2px;
     width: 50px;
+}
+.text-danger{
+    color:#c9518f!important;
+}
+.bg-danger{
+    background-color:#c9518f!important;
+    
+}
+.navbar a{
+    font-weight:700;
+}
+.bg-glasses{
+    background: url(../images/sun-glass.jpg);
+    padding: 14rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-glasses h1{
+    border-left: 3px solid #c9518f;
+    padding: 11px;
+    font-weight: 800;
+    color:#f0edef;;
+}
+.bg-glasses h3{
+    padding: 11px;
+    font-weight: 800;
+    color:#f0edef;
+}
+.iframe-container{
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    line-height: 1;
+    border-radius: 25px;
+    background-color: #fff;
+    height: 100%;
+}
+.card-bd{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    font-size: 25px;
+    /* color: #d75690; */
+}
+.contact-section h3{
+    color:#d75690;
 }
