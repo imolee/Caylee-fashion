@@ -164,6 +164,7 @@ a:hover{
     line-height: 16px;
     margin: 2px;
 }
+
 .nav-link:hover{
     background: #f4fbfc;
     border: none;
@@ -185,6 +186,7 @@ a:hover{
   .clothing-section:hover img {
     transition: transform .5s ease;
   transform: scale(1.1);
+  box-shadow: 0 0 20px #2ec4a5;
 }
 .breadcrumb-header{
     /* align-items:center; */
