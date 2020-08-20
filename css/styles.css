@@ -159,8 +159,8 @@ a:hover{
     padding:15px;
 }
 .active-categories{
-    border-bottom:1px solid #ccc;
-    padding: 4px;
+    border-bottom: 1px solid #ccc;
+    padding: 14px 4px;
 }
 .cloth-description{
     line-height: 16px;
@@ -180,9 +180,12 @@ a:hover{
 .clothing-section{
     height: max-content; 
     overflow: hidden;
+    text-align: center;
   }
 .clothing-section img {
     transition: transform .5s ease;
+    width: 200px;
+    height: 200px;
   }
   .clothing-section:hover img {
     transition: transform .5s ease;
