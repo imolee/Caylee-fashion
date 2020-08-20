@@ -1,0 +1,33 @@
+#main{
+    height: 200px;
+    background: linear-gradient(#000000ad, #000000a3), url(../img/boy.jpg)no-repeat ;
+    background-position: 50% ;
+    width:100%;
+    background-size:cover;
+    text-align:center;
+    color:white;
+    background-attachment: fixed;
+}
+#main h1{
+    font-size: 40px;
+    margin-bottom: 100px;
+    color: wheat;
+    padding: 100px;
+}
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+.checkbox p{
+    float: right;
+}
+
+@media(max-width: 768px) {
+    #main h1 {
+        font-size: 25px;
+        padding: 90px 0;
+    }
+    .wrapper {
+        width: 100%;
+    }
+}

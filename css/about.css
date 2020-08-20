@@ -1,0 +1,102 @@
+#main{
+    height: 200px;
+    background: linear-gradient(#000000ad, #000000a3), url(../images/sun-glass.jpg)no-repeat;
+    background-position: 50%;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 4rem;
+    padding-top: 19px;
+}
+
+#main h1{
+    font-size: 58px;
+    /* margin-top: 100px; */
+    margin-bottom: 12px;
+    color: wheat;
+}
+
+.breadcrumb {
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: white !important;
+}
+
+.breadcrumb a {
+    color: white;
+}
+
+.breadcrumb-item.active {
+    color: #fff;
+}
+
+.code p{
+    text-align: center;
+    justify-content: center;
+}
+
+.breadcrumb-item.active::before {
+    color: white;
+}
+
+.about-img{
+    overflow: hidden;
+}
+.about-img img{
+    /* transform: scale(0.4); */
+    transition: 4s;
+}
+
+.about-img img:hover{
+    transform: scale(1.6);
+    transition: 4s;
+}
+.p-5{
+    color:rgb(31, 28, 28);
+    font-size: 18px;
+}
+.p-5 p1{
+    font-family: serif;
+    font-style: normal;
+    font-variant:small-caps;
+    font-weight: bold;
+    font-size: 30px;
+    color: black
+}
+/* .div img{
+    margin: 5px;
+    border: 1px solid;
+    float: left;
+    width: 180px;
+}
+.div img:hover{
+    border: 1px solid;
+}
+.div img img{
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+div desc{
+    padding: 20px;
+    text-align: center; */
+/* } */
+
+.code img{
+    border-radius: 50px;
+}
+
+.about-celee{
+color:#c9518f;
+font-weight: 800;
+}
+.color-pink{
+    color:#c9518f;
+}
+.team img{
+    border-bottom:1px solid #cccccc;
+}
